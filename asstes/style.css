@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #C49789;
+}
+body{
+    background-color: #F9F8F6;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Marcellus", serif;
+}
+p, span, div, a, li, button{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.top-bar{
+    background-color: #F0E9E1;
+}
+.top-bar p{
+    padding: 0;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 0;
+}
+.logo-sec a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 35px;
+}
+.cont-sec-23{
+    display: flex;
+    justify-content: space-between;
+}
+a.head-btn{
+    border: 0;
+    padding: 15px 40px;
+    color: #ffff;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/******Hero Banner*********/
+.hero-banner{
+    height: 100vh;
+}
+.sub-head{
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.banner-left .main-h1{
+    font-size: 62px;
+}
+.text-23{
+    font-size: 18px;
+    line-height: 2rem;
+}
+.banner-btn{
+    margin: 40px 0;
+}
+.review-img{
+    margin-top: 10px;
+}
+.review-img img{
+    height: 30px;
+    width: 30px;
+}
+.main-h2{
+    font-size: 45px;
+}
+/*************/
+.sec-about-34{
+    background-color: #ffff;
+}
+.my-se{
+    width: 80%;
+}
+
+/****paln******/
+.text-24{
+    font-size: 24px;
+    font-size: 500;
+}
+
+
+/****faq sec****/
+.faq-sec{
+    background-color: #ffff;
+}
+.faq-sec .accordion{
+    width: 60%;
+}
+.faq-sec .accordion-button{
+    font-weight: 600;
+    color: #292727;
+    font-size: 18px;
+}
+.faq-sec .accordion-button:focus {
+  box-shadow: none !important;
+  border: none !important;
+  color: #000;
+}
+
+/****Footer****/
+footer{
+    padding: 15px 0;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+footer p a{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+footer .bar-sym{
+    margin: 0 20px;
+}
